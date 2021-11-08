@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> index.html</title>
+   
+    <!-- bootstrap extensions-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+     <!-- this is going to link to the external stylesheet.-->
+    <link rel ="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+<div class="container">
+   
+
+<div class="center">
+    <!-- start of the login form-->
+  <div class="form">
+    <div class="form-element">
+        <!-- username element-->
+        <h2>username</h2>
+        <!-- username input-->
+        <input type="text" id='username' required>
+        <!-- password element-->
+        <h2> Password</h2>
+        <!-- password field user input-->
+      <input type="password" id="password-field" required>
+      <div class="toggle-password">
+          <!-- password checker,-->
+        <i class="fa fa-eye"></i>
+        <i class="fa fa-eye-slash"></i>
+      </div>
+        <!-- password policies-->
+      <div class="password-policies">
+        <div class="policy-length">
+          8 Characters
+        </div>
+        <div class="policy-number">
+          Contains Number
+        </div>
+        <div class="policy-uppercase">
+          Contains Uppercase
+        </div>
+        <div class="policy-special">
+          Contains Special Characters
+        </div>
+      </div>
+    </div>
+      <!-- Once the user has login-->
+  </div>
+      <a href="Logout.html">
+       <button></button>
+     </a>
+</div>
+
+
+</div>
+    
+<script src="myScript.js"></script>
+</body>
+
+</html>
